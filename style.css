@@ -7,3 +7,42 @@ body {
     padding: 0;
     margin: 0;
 }
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    background-color: #be3043;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+    top: 0;
+    left: 0;
+    height: 80px;
+}
+
+.nav-list {
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.nav-list a {
+    display: block;
+    font-size: 24px;
+    padding: 24px;
+}
+
+.nav-list a:hover {
+    background: #45567d;
+}
+
+a {
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+ul {
+    list-style: none;
+}
