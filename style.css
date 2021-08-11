@@ -198,3 +198,17 @@ img {
         margin: 0 1rem;
     }
 }
+
+@media (min-width:300px) {
+
+    .contact-header>h2 {
+        font-size: 48px;
+    }
+}
+
+@media (min-width:300px) {
+    .footer {
+        text-align: center;
+        flex-wrap: wrap;
+    }
+}
